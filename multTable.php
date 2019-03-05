@@ -1,5 +1,6 @@
 <?php
-    echo "<table>"
+	echo "<p>Hello World!</p>"
+   /* echo "<table>"
     for ($i = 1; $i < 100; $i++)
     {
         echo "<tr>" . $i;
@@ -9,5 +10,5 @@
         }
         echo "</tr>";
     }
-    echo "</table>"
+    echo "</table>" */
 ?>
