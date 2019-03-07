@@ -1,0 +1,29 @@
+#container
+{
+	text-align: center;
+	background-color: Aqua;
+}
+#harry
+{
+	width: 200px;
+	height: 200px;
+}
+#hermione
+{
+	width: 200px;
+	height: 200px;
+}
+#ron
+{
+	width: 200px;
+	height: 200px;
+}
+#pcontainer
+{
+	text-align:center;
+	background-color: Aqua;
+}
+#receipt
+{
+	table-align:center;
+}

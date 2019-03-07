@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title>Web Store</title>
+		<link rel = "stylesheet" href = "styles.css">
+		<script type = "text/javascript" src = "formChecker.js"></script>
+	</head>
+	<body>
+		<div id = "container">
+		<h1>Olivander's Wand Shop</h1>
+		<form action = "customerBackend.php" method = "post" onsubmit = "return validate()">
+		<h2>Our Wand selection</h2>
+		<img id = "harry" src = "https://wholesalehalloweencostumes-weblinc.netdna-ssl.com/product_images/the-wizarding-world-of-harry-potter-deluxe-harry-potter-wand/5aaa651d69702d1eaf000762/original.jpg?c=1525350808">
+		<figcaption>Harry Potter's wand, $50.00 usd</figcaption>
+		<p>
+			<input id = "harry_wand" type = "radio" name = "harry" value = "Harry Potter's wand"/>Add to cart
+		</p>
+		<img id = "hermione" src = "https://i5.walmartimages.com/asr/dc9dcccf-2bf5-4e05-934c-57a0779efef7_1.0b8c2a2b6ebf5e9ff7d686496b3f6304.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF">
+		<figcaption>Hermione's wand, $45.00 usd</figcaption>
+		<p>
+			<input id = "hermione_wand" type = "radio" name = "hermione" value = "Hermione's wand"/>Add to cart
+		</p>
+		<img id = "ron" src = "https://images-na.ssl-images-amazon.com/images/I/512HkxrQpVL._SX425_.jpg">
+		<figcaption>Ron's wand, $40.00 usd</figcaption>
+		<p>
+			<input id = "ron_wand" type = "radio" name = "ron" value = "Ron's wand">Add to cart
+		</p>
+		<h2>Select Shipping</h2>
+		<p>
+			<input id = "7day" type = "radio" name = "shipping" value = "7 day free shipping"/>7 day free shipping
+		</p>
+		<p>
+			<input id = "3day" type = "radio" name = "shipping" value = "$5.00 three day shipping"/>$5.00 three day shipping
+		</p>
+		<p>
+			<input id = "overnight" type = "radio" name = "shipping" value = "$50.00 overnight shipping"/>$50.00 overnight shipping
+		</p>
+		<p>Enter your email <input id = "email" name = "email" type = "text"></p>
+		<p>Enter your password <input id = "psswd" name = "psswd" type = "password"></p>
+		<button type = "reset" value = "reset">Reset</button>
+		<input type = "submit" value = "checkout"/>
+		</form>
+		</div>
+	</body>
+</html>
